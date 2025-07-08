@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booksky</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sevillana&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+ 
+</head>
+<body>
+    <div class="navbox">
+        <h1>Booksky</h1>
+    </div>
+
+    <div class="container">
+         <div class="book-container">
+            <h2>RICH DAD POOR SON</h2>
+            <h5>Basha</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia architecto rem fugiat error. Distinctio totam a voluptates sapiente odit aliquam fuga at nihil maiores dolorem pariatur, eum, sint architecto. Rerum.</p>
+            <button onclick="cencel(event)">Delete</button>
+        </div>
+
+        <div class="overlay">
+            
+        </div>
+        <div class="popup-box">
+            <h1>Add Book Details</h1>
+            <form>
+            <input type="text" class="popup-book-name" placeholder="Book Name">
+            <input type="text" class="popup-book-author" placeholder="Book Author">
+            <textarea type="text" class="popup-text" placeholder="Bookdescription"></textarea>
+            <button class="popup-save-button">Add</button>
+            <button class="popup-delete-button">Delete</button>
+         </form>
+        </div>
+
+
+    </div>
+
+    <button class="pop-button" id="add-button">+</button>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
